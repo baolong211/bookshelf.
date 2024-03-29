@@ -1,0 +1,101 @@
+
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+td,
+th,
+form,
+input,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart th,
+.cart td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.cart th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.cart td {
+    text-align: center;
+}
+
+.cart a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cart a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info input[type="text"],
+.info input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info input[type="radio"] {
+    margin-right: 5px;
+}
+
+.info input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.info input[type="submit"]:hover {
+    background-color: #0056b3;
+}
